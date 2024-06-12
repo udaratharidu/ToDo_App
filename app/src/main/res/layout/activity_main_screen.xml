@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@drawable/backgroundtodo"
+        android:background="@drawable/background_dark"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +24,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="98dp"
+                android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:padding="5dp">
 
@@ -45,15 +45,15 @@
                     android:textStyle="bold" />
 
                 <LinearLayout
-                    android:layout_width="395dp"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="end"
-                    android:orientation="horizontal">
+                    android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/img_devinfo"
-                        android:layout_width="603dp"
-                        android:layout_height="46dp"
+                        android:layout_width="79dp"
+                        android:layout_height="47dp"
                         android:layout_gravity="center_horizontal|center_vertical|end"
                         android:baselineAligned="false"
                         app:srcCompat="@drawable/developer"
